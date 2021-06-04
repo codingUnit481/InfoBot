@@ -1,0 +1,117 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "whats up",
+                "hows it going"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye",
+                "see you later",
+                "cya",
+                "later",
+                "bye",
+                "so long",
+                "have a good day"
+            ]
+        },
+        {
+            "tag": "favorite color",
+            "patterns": [
+                "my favorite color is",
+                "i like the color",
+                "color",
+                "the color i like the most is"
+            ],
+            "type": "adjective"
+        },
+        {
+            "tag": "least favorite color",
+            "patterns": [
+                "my least favorite color is",
+                "i hate the color",
+                "bad color",
+                "the color i hate the most is"
+            ],
+            "type": "adjective"
+        },
+        {
+            "tag": "favorite food",
+            "patterns": [
+                "my favorite food is",
+                "i really like",
+                "tastes so good",
+                "i like the food"
+            ],
+            "type": "noun"
+        },
+        {
+            "tag": "least favorite food",
+            "patterns": [
+                "my least favorite food is",
+                "i really hate",
+                "tastes so bad",
+                "i hate the food"
+            ],
+            "type": "noun"
+        },
+        {
+            "tag": "favorite animal",
+            "patterns": [
+                "my favorite animal is",
+                "are so cool",
+                "the best animal is"
+            ],
+            "type": "noun"
+        },
+        {
+            "tag": "least favorite animal",
+            "patterns": [
+                "my leeast favorite animal is",
+                "are so dumb",
+                "the worst animal is"
+            ],
+            "type": "noun"
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "my name is",
+                "im ",
+                "hello, my name is",
+                "hi im"
+            ],
+            "type": "proper noun"
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nah",
+                "negative",
+                "nope"
+            ],
+            "type": "noun"
+        },
+        {
+            "tag": "yes",
+            "patterns": [
+                "yes",
+                "yup",
+                "yea",
+                "positive",
+                "yep"
+            ],
+            "type": "noun"
+        }
+    ]
+}
